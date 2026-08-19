@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Portfolio | Triova Infradesigns</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png" alt="Triova Logo">
+        </a>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+
+</header>
+
+<section class="service-hero">
+
+    <div class="service-overlay">
+
+        <h1>Our Portfolio</h1>
+
+        <p>
+            Discover our premium interior design, renovation and construction projects crafted with precision and elegance.
+        </p>
+
+    </div>
+
+</section>
+<section class="portfolio-gallery">
+
+    <div class="container">
+
+        <h2>Featured Projects</h2>
+
+        <p class="section-subtitle">
+            A collection of our finest residential, commercial and renovation projects.
+        </p>
+<div class="portfolio-filter">
+
+    <button class="active"data-filter="all">All</button>
+    <button data-filter="residential">Residential</button>
+    <button data-filter="commercial">Commercial</button>
+    <button data-filter="renovation">Renovation</button>
+    <button data-filter="construction">Construction</button>
+
+</div>
+        <div class="project-grid">
+
+            <div class="project-card" data-category="residential">
+    <img src="images/living-room.jpg" alt="Luxury Living Room" loading="lazy">
+    <h3>Luxury Living Room</h3>
+    <p>Hyderabad • Residential</p>
+</div>
+
+            <div class="project-card" data-category="residential">
+    <img src="images/bedroom.jpg" alt="Modern Bedroom" loading="lazy">
+    <h3>Modern Bedroom</h3>
+    <p>Hyderabad • Residential</p>
+</div>
+
+            <div class="project-card" data-category="renovation">
+    <img src="images/kitchen.jpg" alt="Modular Kitchen" loading="lazy">
+    <h3>Modular Kitchen</h3>
+    <p>Hyderabad • Renovation</p>
+</div>
+
+            <div class="project-card" data-category="commercial">
+    <img src="images/office.jpg" alt="Office Interior" loading="lazy">
+    <h3>Office Interior</h3>
+    <p>Hyderabad • Commercial</p>
+</div>
+
+    </div>
+    </div>
+
+</section>
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <span class="lightbox-prev">&#10094;</span>
+    <img id="lightbox-img" src="" alt="">
+    <span class="lightbox-next">&#10095;</span>
+
+</div>
+
+<script src="JS/script.js"></script>
+</body>
+</html>
